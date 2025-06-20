@@ -10,8 +10,8 @@ const monaSans = Mona_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "PrepWise",
-  description: "An AI-powered platform for preparing for mock interviews",
+  title: "Omaxe HR Assistance",
+  description: "An AI-powered platform for preparing for understanding HR policies and procedures.",
 };
 
 export default function RootLayout({
