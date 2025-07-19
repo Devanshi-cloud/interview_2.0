@@ -108,8 +108,8 @@ export default function LiveInterviewPage() {
         '&role=Audience',
     });
     
-    const appID = parseInt(process.env.NEXT_PUBLIC_ZEGOCLOUD_APPID || '27275312');
-    const serverSecret = process.env.NEXT_PUBLIC_ZEGOCLOUD_SERVER_SECRET || '58f39b59f431678e172bab98a278c1ec';
+    const appID = parseInt(process.env.NEXT_PUBLIC_ZEGOCLOUD_APPID || '1702549576');
+    const serverSecret = process.env.NEXT_PUBLIC_ZEGOCLOUD_SERVER_SECRET || '519aaba11b80375f80d8593a86398780';
     const displayName = userName || `User-${userId.current.substring(0, 4)}`;
     
     // Generate Kit Token
